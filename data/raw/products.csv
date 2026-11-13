@@ -1,0 +1,101 @@
+product_id,product_name,category,brand,selling_price,cost_price
+P0001,Nova Wireless Mouse,Electronics,Nova,1577.08,889.76
+P0002,UrbanLeaf Bluetooth Speaker,Electronics,UrbanLeaf,8485.43,4513.39
+P0003,TechCore Headphones,Electronics,TechCore,7983.56,5610.91
+P0004,BrightHome Power Bank,Electronics,BrightHome,563.13,410.04
+P0005,Apex Keyboard,Electronics,Apex,21441.39,12686.41
+P0006,Everyday Smart Watch,Electronics,Everyday,4008.6,2646.69
+P0007,PixelWorks USB Hub,Electronics,PixelWorks,3166.88,1866.8
+P0008,Northstar Webcam,Electronics,Northstar,23968.04,18662.46
+P0009,Nova Wireless Mouse,Electronics,Nova,19347.2,11091.53
+P0010,UrbanLeaf Bluetooth Speaker,Electronics,UrbanLeaf,17253.09,11932.62
+P0011,TechCore Headphones,Electronics,TechCore,9817.47,6599.96
+P0012,BrightHome Power Bank,Electronics,BrightHome,465.05,252.39
+P0013,Apex Keyboard,Electronics,Apex,13221.19,6995.67
+P0014,Everyday Smart Watch,Electronics,Everyday,4313.49,3152.69
+P0015,PixelWorks USB Hub,Electronics,PixelWorks,24729.5,15994.81
+P0016,Northstar Webcam,Electronics,Northstar,21007.93,16325.19
+P0017,Nova Wireless Mouse,Electronics,Nova,3710.58,2280.05
+P0018,UrbanLeaf Bluetooth Speaker,Electronics,UrbanLeaf,9934.8,5007.29
+P0019,TechCore Headphones,Electronics,TechCore,18931.19,11550.56
+P0020,BrightHome Power Bank,Electronics,BrightHome,11838.31,6217.5
+P0021,Nova T-Shirt,Clothing,Nova,1388.35,1044.22
+P0022,UrbanLeaf Jeans,Clothing,UrbanLeaf,454.85,250.1
+P0023,TechCore Hoodie,Clothing,TechCore,2149.61,1347.93
+P0024,BrightHome Sneakers,Clothing,BrightHome,4166.15,2616.29
+P0025,Apex Formal Shirt,Clothing,Apex,725.19,401.1
+P0026,Everyday Jacket,Clothing,Everyday,5927.58,3979.05
+P0027,PixelWorks Kurta,Clothing,PixelWorks,4595.67,3129.93
+P0028,Northstar Track Pants,Clothing,Northstar,5374.89,2673.65
+P0029,Nova T-Shirt,Clothing,Nova,2660.27,1707.52
+P0030,UrbanLeaf Jeans,Clothing,UrbanLeaf,2467.43,1809.47
+P0031,TechCore Hoodie,Clothing,TechCore,3454.62,2454.81
+P0032,BrightHome Sneakers,Clothing,BrightHome,5985.31,3779.35
+P0033,Apex Formal Shirt,Clothing,Apex,6379.43,4185.78
+P0034,Everyday Jacket,Clothing,Everyday,5973.38,3477.57
+P0035,PixelWorks Kurta,Clothing,PixelWorks,3565.9,2280.12
+P0036,Northstar Track Pants,Clothing,Northstar,868.11,520.49
+P0037,Nova T-Shirt,Clothing,Nova,6432.76,4305.12
+P0038,UrbanLeaf Jeans,Clothing,UrbanLeaf,1364.92,793.91
+P0039,TechCore Hoodie,Clothing,TechCore,1461.48,712.39
+P0040,BrightHome Sneakers,Clothing,BrightHome,6502.1,3995.29
+P0041,Nova Water Bottle,Home & Kitchen,Nova,2255.62,1487.68
+P0042,UrbanLeaf Coffee Maker,Home & Kitchen,UrbanLeaf,199.1,112.17
+P0043,TechCore Storage Box,Home & Kitchen,TechCore,4964.78,3327.05
+P0044,BrightHome Desk Lamp,Home & Kitchen,BrightHome,6874.37,4579.07
+P0045,Apex Cookware Set,Home & Kitchen,Apex,3419.92,2422.77
+P0046,Everyday Bedsheet,Home & Kitchen,Everyday,6336.8,4411.74
+P0047,PixelWorks Mixer Grinder,Home & Kitchen,PixelWorks,6747.0,4821.42
+P0048,Northstar Water Bottle,Home & Kitchen,Northstar,6086.59,3129.91
+P0049,Nova Coffee Maker,Home & Kitchen,Nova,5166.03,3161.75
+P0050,UrbanLeaf Storage Box,Home & Kitchen,UrbanLeaf,3937.76,2662.83
+P0051,TechCore Desk Lamp,Home & Kitchen,TechCore,6792.23,5266.51
+P0052,BrightHome Cookware Set,Home & Kitchen,BrightHome,2123.36,1486.62
+P0053,Apex Bedsheet,Home & Kitchen,Apex,5286.39,3086.98
+P0054,Everyday Mixer Grinder,Home & Kitchen,Everyday,997.51,491.06
+P0055,PixelWorks Water Bottle,Home & Kitchen,PixelWorks,5473.8,3431.58
+P0056,Northstar Coffee Maker,Home & Kitchen,Northstar,6899.95,4274.46
+P0057,Nova Storage Box,Home & Kitchen,Nova,6847.73,4132.42
+P0058,UrbanLeaf Desk Lamp,Home & Kitchen,UrbanLeaf,5585.72,2823.28
+P0059,TechCore Cookware Set,Home & Kitchen,TechCore,3953.91,2849.26
+P0060,BrightHome Bedsheet,Home & Kitchen,BrightHome,6483.21,4711.83
+P0061,Nova Python Programming,Books,Nova,402.25,238.06
+P0062,UrbanLeaf Data Science Handbook,Books,UrbanLeaf,482.58,247.46
+P0063,TechCore Business Analytics,Books,TechCore,4774.84,3313.63
+P0064,BrightHome Mathematics Guide,Books,BrightHome,5448.99,4030.27
+P0065,Apex Fiction Novel,Books,Apex,5214.11,3755.52
+P0066,Everyday Productivity Book,Books,Everyday,484.4,266.59
+P0067,PixelWorks Python Programming,Books,PixelWorks,4409.0,3251.36
+P0068,Northstar Data Science Handbook,Books,Northstar,179.83,114.08
+P0069,Nova Business Analytics,Books,Nova,4788.42,2340.97
+P0070,UrbanLeaf Mathematics Guide,Books,UrbanLeaf,2898.29,2169.92
+P0071,TechCore Fiction Novel,Books,TechCore,4749.55,2618.42
+P0072,BrightHome Productivity Book,Books,BrightHome,5990.55,3500.93
+P0073,Apex Python Programming,Books,Apex,5994.41,3414.91
+P0074,Everyday Data Science Handbook,Books,Everyday,4192.69,2511.77
+P0075,PixelWorks Business Analytics,Books,PixelWorks,2031.55,1515.47
+P0076,Northstar Mathematics Guide,Books,Northstar,1434.02,724.82
+P0077,Nova Fiction Novel,Books,Nova,2491.2,1732.11
+P0078,UrbanLeaf Productivity Book,Books,UrbanLeaf,5679.91,4428.19
+P0079,TechCore Python Programming,Books,TechCore,2179.08,1312.64
+P0080,BrightHome Data Science Handbook,Books,BrightHome,1086.23,708.72
+P0081,Nova Yoga Mat,Sports,Nova,6982.42,4819.72
+P0082,UrbanLeaf Cricket Bat,Sports,UrbanLeaf,4226.21,2526.05
+P0083,TechCore Skipping Rope,Sports,TechCore,6418.8,4037.91
+P0084,BrightHome Dumbbells,Sports,BrightHome,1069.41,630.54
+P0085,Apex Football,Sports,Apex,609.09,329.27
+P0086,Everyday Running Shoes,Sports,Everyday,270.03,166.33
+P0087,PixelWorks Yoga Mat,Sports,PixelWorks,4495.6,2620.88
+P0088,Northstar Cricket Bat,Sports,Northstar,3028.62,2325.26
+P0089,Nova Skipping Rope,Sports,Nova,5299.95,3403.93
+P0090,UrbanLeaf Dumbbells,Sports,UrbanLeaf,2098.1,1571.68
+P0091,TechCore Football,Sports,TechCore,1759.42,1016.25
+P0092,BrightHome Running Shoes,Sports,BrightHome,6376.09,4073.45
+P0093,Apex Yoga Mat,Sports,Apex,5233.88,3439.83
+P0094,Everyday Cricket Bat,Sports,Everyday,4625.06,2635.43
+P0095,PixelWorks Skipping Rope,Sports,PixelWorks,1802.4,1039.53
+P0096,Northstar Dumbbells,Sports,Northstar,1213.77,900.97
+P0097,Nova Football,Sports,Nova,2089.24,1354.76
+P0098,UrbanLeaf Running Shoes,Sports,UrbanLeaf,5574.02,3986.24
+P0099,TechCore Yoga Mat,Sports,TechCore,3151.95,1963.28
+P0100,BrightHome Cricket Bat,Sports,BrightHome,6962.71,4751.21
