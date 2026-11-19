@@ -22,8 +22,13 @@ def column_validation():
             print(f'Unexpected columns : {unexpected_column}')
         elif columns != actual :
             print(f'{df} : order is not correct')
+
         else :
             print(f'{df} : columns are valid')
     return f'Column Validation completed'
 
-column_validation()
+def df_info():
+    rows_customers = data_customers.shape[0]
+    rows_orders = data_orders.shape[0]
+    rows_products = data_products.shape[0]
+    return rows_customers , rows_orders , rows_products
