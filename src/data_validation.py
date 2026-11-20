@@ -32,3 +32,16 @@ def df_info():
     rows_orders = data_orders.shape[0]
     rows_products = data_products.shape[0]
     return rows_customers , rows_orders , rows_products
+
+def missing_value(data):
+    missing_count = data.isnull().sum()
+    return missing_count 
+
+def duplicate_value (data , subset = None):
+    dup_row = data[data.duplicated(subset = subset)]
+    dup_count = data.duplicated(subset = subset).sum()
+    if dup_row.empty:
+        print( f'No Duplicated Value')
+    else :
+        print(f'Duplicated rows : {dup_count}')
+        print( f'\n Duplicated row \n {dup_row.sort_values(by = subset or list(df.columns))}')
