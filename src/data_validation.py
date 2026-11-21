@@ -40,8 +40,11 @@ def missing_value(data):
 def duplicate_value (data , subset = None):
     dup_row = data[data.duplicated(subset = subset)]
     dup_count = data.duplicated(subset = subset).sum()
-    if dup_row.empty:
-        print( f'No Duplicated Value')
+    return dup_count
+
+def validate_relationship(data,column,other_data ):
+    invalid = data[~data[column].isin(other_data[column])]
+    if invalid.empty :
+        return f'NO INVALID DATA'
     else :
-        print(f'Duplicated rows : {dup_count}')
-        print( f'\n Duplicated row \n {dup_row.sort_values(by = subset or list(df.columns))}')
+        return f'INVALID ROWS : \n{invalid}'

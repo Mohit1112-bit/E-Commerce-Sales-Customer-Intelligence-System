@@ -7,13 +7,14 @@ from utils.design import *
 def show():
     print(f''' {'='*31} E-COMMERCE SALES CUSTOMER INTELLIGENCE SYSTEM {'='*31} 
     1. Load Files
-    2. Validate files(Missing values , Duplicate value ,Invalid data type etc) ''')
+    2. Validate files(Missing values , Duplicate value etc) ''')
 
 def loading_report (name , data ):
     ok = data is not None
     print(f"[{'OK' if ok else 'ERROR'}] {name} dataset {'Loaded' if ok else 'Not Loaded'}")
 
 customer = order = product = None
+
 
 while True:
     show()
@@ -40,35 +41,41 @@ while True:
         order_missing = missing_value(data_orders)
         product_missing = missing_value(data_products)
         
-        missing_data = {
-            'customers' : customer_missing,
-            'orders' : order_missing,
-            'products' : product_missing
+        data_validate = {
+            'CUSTOMERS' : [customer_missing , duplicate_value(data_customers, subset= 'customer_id')],
+            'ORDERS' : [order_missing , duplicate_value(data_orders, subset= 'order_id')],
+            'PRODUCTS' : [product_missing,duplicate_value(data_products, subset= 'product_id')]
         }
 
-        print(f'''
-
-        Missing Values
-
-        ''')
-        for name , missing in missing_data.items():
+        for name , missing in data_validate.items():
             print(f'\n{name}')
-            print(sep())
-            print(missing)
+            print(f'Missing : {missing[0].sum()}')
+            print(f'Duplicated : {missing[1].sum()}')
 
         print('''
+
+        DATA TYPES 
+    
+        ''')
+        datatypes = {
+        'customers' : data_customers.dtypes, 
+        'orders' : data_orders.dtypes ,
+        'products' : data_products.dtypes
+        }
+        for data , data_types in datatypes.items():
+            print(sep())
+            print(data , data_types ,sep='\n')
         
-        Duplicated Values
+        print('''
+        
+        RELATIONSHIP VALIDATION
 
         ''')
+        print(sep())
+        print(f'customer_id' , validate_relationship(data_customers, 'customer_id', data_orders) , sep=' : ')
         
-        duplicate_data = {
-            'customers' : duplicate_value(data_customers, subset= 'customer_id'),
-            'orders' : duplicate_value(data_orders, subset= 'order_id'),
-            'products' : duplicate_value(data_products, subset= 'product_id')
-        }
+        print(f'product_id' , validate_relationship(data_products, 'product_id', data_orders) , sep=' : ')
+        validate_relationship(data_products, 'product_id', data_orders)
 
-        for data , duplicated in duplicate_data.items():
-            print(data)
-            print(duplicated)
-            print(sep())
+    if choice == 3:
+        pass 
